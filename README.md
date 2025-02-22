@@ -1,0 +1,1 @@
+# SirmaExam2025BulgariaFrontend
