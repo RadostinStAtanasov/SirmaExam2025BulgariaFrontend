@@ -1,11 +1,7 @@
 :root {
-
-
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 400;
-    /* font-family: sans-serif; */
-
-    /* TODO: font-family!!! there is not font on Figma */
+    font-family: 'DM sans', sans-serif;
 }
 
 body {
@@ -136,7 +132,7 @@ body {
 .discover-bulgaria-content-head p {
     color: white;
     font-size: 16px;
-    font-weight: 50;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 85px;
 }
@@ -212,12 +208,6 @@ body {
     height: 96px;
 }
 
-.exploring-bulgaria-container-content-head p {
-    width: 460px;
-    height: 46px;
-}
-
-
 .container-images {
     width: 1400px;
     height: 400px;
@@ -274,7 +264,9 @@ body {
 
 .exploring-bulgaria-container-content-head p {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 400;
+    width: 460px;
+    height: 46px;
     margin: 0;
 }
 
@@ -519,4 +511,79 @@ body {
     border-radius: 40px;
     font-size: 16px;
     margin-bottom: 220px;
+}
+
+/* balkans adventure */
+
+.balkan-adventure-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 684px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.balkan-adventure-container-content {
+    
+}
+
+.balkan-adventure-container-content-head {
+    font-size: 40px;
+    font-weight: 500;
+    width: 720px;
+    height: 96px;
+}
+
+.card-container {
+    width: 400px;
+    height: 388px;
+    border: 1px solid #E5E5E5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.card-head {
+    font-size: 28px;
+    width: 336px;
+    height: 180px;
+}
+
+.card-body {
+    width: 171px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: space-between;
+    margin-left: 32px;
+}
+
+.card-body img {
+    width: 56px;
+    height: 56px;
+}
+
+.card-body div:nth-child(2) {
+    max-width: 192px;
+    height: 26px;
+    font-size: 20px;
+}
+
+.card-body div:nth-child(3) {
+    width: 171px;
+    height: 21px;
+    font-size: 16px;
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 1248px;
 }
