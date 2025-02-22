@@ -587,3 +587,68 @@ body {
     justify-content: space-around;
     width: 1248px;
 }
+
+/* ready to explore Bulgaria */
+
+
+.ready-to-explore-bulgaria-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ready-to-explore-bulgaria-container-content {
+    width: 1216px;
+    height: 226px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ready-to-explore-info {
+    width: 548px;
+    height: 98px;
+}
+
+.ready-to-explore-info div {
+    font-size: 28px;
+}
+
+.ready-to-explore-info p {
+    font-size: 18px;
+    color: grey;
+    margin: 0;
+}
+
+.two-buttons {
+    width: 342px;
+    height: 45px;
+    display: flex;
+    gap: 12px;
+}
+
+.two-buttons button:first-child {
+    width: 128px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.two-buttons button:nth-child(2) {
+    width: 202px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
+
+.ready-to-explore-info-container {
+    width: 1216px;
+    height: 226px;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
