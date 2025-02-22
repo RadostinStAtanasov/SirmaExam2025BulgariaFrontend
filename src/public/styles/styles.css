@@ -1,0 +1,169 @@
+:root {
+
+
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: sans-serif; */
+
+    /* TODO: font-family!!! there is not font on Figma */
+}
+
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    max-width: 1440px;
+    max-height: 4349px;
+    
+}
+
+.header-home-page-container {
+    background-image: url("/src/public/images/places-to-visit-in-bulgaria.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    border: 1px solid black;
+    width: 1400px;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-home-page-container-content {
+    width: 1400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container ul {
+    width: 1020px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.navbar-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.login-register-container-content {
+    max-width: 196px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.login-register-container {
+    width: 196px;
+    
+}
+
+.login-register-container span:nth-child(2) {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    width: 103px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.login-register-container span {
+    border: none;
+    color: white;
+    border-radius: 40px;
+    width: 81px;
+    height: 45px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-sirma-academy {
+    width: 175px;
+    height: 175px;
+}
+
+.discover-bulgaria-container {
+    color: white;
+    width: 608px;
+    height: 309px;
+}
+
+.discover-bulgaria-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-bulgaria-content-head {
+    text-align: center;
+}
+
+.discover-bulgaria-content-head div {
+    font-size: 66px;
+    margin-bottom: 24px;
+}
+
+.discover-bulgaria-content-head p {
+    color: white;
+    font-size: 16px;
+    font-weight: 50;
+    margin-top: 0;
+    margin-bottom: 85px;
+}
+
+.discover-bulgaria-content button {
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    width: 134px;
+    height: 45px;
+    border: none;
+}
+
+.header-home-page-bottom-container {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.header-home-page-bottom-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    height: 63px;
+}
+
+.bottom-container-cells {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
