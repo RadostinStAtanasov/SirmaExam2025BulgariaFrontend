@@ -11,7 +11,8 @@
 body {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header {
@@ -32,6 +33,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .header-home-page-container-content {
@@ -166,4 +168,111 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-size: 18px;
+}
+
+.bottom-container-cells span:first-child {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 18px;
+}
+
+/* exploring bulgaria section */
+
+.exploring-bulgaria-container {
+    width: 1400px;
+    height: 766px;
+}
+
+.exploring-bulgaria-container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.exploring-bulgaria-container-content-head {
+    width: 763px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 24px;
+}
+
+.exploring-bulgaria-container-content-head span:first-child {
+    width: 763px;
+    height: 96px;
+}
+
+.exploring-bulgaria-container-content-head p {
+    width: 460px;
+    height: 46px;
+}
+
+
+.container-images {
+    width: 1338px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.background-img-1 {
+    background-image: url("/src/public/images/200819101951-07-reconnect-bulgaria-highlights-nessebar.jpg");
+    background-repeat: no-repeat;
+    background-size: 430px 400px;
+    width: 430px;
+    height: 400px;
+    border-radius: 16px;
+}
+.background-img-2 {
+    background-image: url("/src/public/images/plovdiv-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 430px 400px;
+    width: 430px;
+    height: 400px;
+    border-radius: 16px;
+}
+.background-img-3 {
+    background-image: url("/src/public/images/1+-+15.jpeg");
+    background-repeat: no-repeat;
+    background-size: 430px 400px;
+    width: 430px;
+    height: 400px;
+    border-radius: 16px;
+}
+
+.text-size-exploring-bulgaria span:first-child {
+    font-size: 28px;
+    width: 100px;
+    padding-left: 32px;
+}
+.text-size-exploring-bulgaria span:nth-child(2) {
+    font-size: 18px;
+    width: 100px;
+    padding-left: 32px;
+    padding-bottom: 40px;
+}
+.text-size-exploring-bulgaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.exploring-bulgaria-container-content-head span {
+    font-size: 40px;
+}
+
+.exploring-bulgaria-container-content-head p {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
 }
