@@ -205,12 +205,6 @@ body {
     gap: 24px;
 }
 
-.exploring-bulgaria-container-content-head span:first-child {
-    width: 763px;
-    height: 96px;
-    font-size: 40px;
-    font-weight: 500;
-}
 
 .container-images {
     width: 1400px;
@@ -226,13 +220,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* background: linear-gradient(to top,black, white 100%); */
-
-
     height: 200px;
-    
-    
-    
 }
 
 .background-img-1 {
@@ -284,6 +272,10 @@ body {
 
 .exploring-bulgaria-container-content-head span {
     font-size: 40px;
+    width: 700px;
+    height: 96px;
+    font-size: 40px;
+    font-weight: 500;   
 }
 
 .exploring-bulgaria-container-content-head p {
@@ -460,12 +452,14 @@ body {
 
 .inside-img-text-content span:nth-child(2) {
     font-size: 14px;
+    padding-bottom: 15px;
 }
 
 .inside-img-text-content span:nth-child(3) {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
+    display: flex;
 }
 
 .flexible-icon-container {
@@ -479,17 +473,22 @@ body {
     align-items: center;
     justify-content: center;
     align-self: flex-end;
+    gap: 5px;
 }
 
 .flexible-icon-container-content {
-    width: 38px;
+    width: 43px;
     height: 18px;
     font-size: 14px;
     color: #DD9115;
 }
 
-.fa-solid { 
-    font-size: 12px;
+.liner-start-gradient {
+    font-size: 40px;
+}
+
+.fa-solid {
+    font-size: 14px;
 }
 
 #little-night {
@@ -512,6 +511,7 @@ body {
 
 
 .flexible-travel-plans-container-head span {
+    font-weight: 500;
     font-size: 40px;
 }
 
@@ -579,6 +579,7 @@ body {
     font-size: 28px;
     width: 336px;
     height: 180px;
+    text-align: left;
 }
 
 .card-body {
@@ -601,6 +602,7 @@ body {
     width: 192px;
     height: 26px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .card-body div:nth-child(3) {
@@ -612,8 +614,9 @@ body {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1248px;
+    /* gap: 24px; */
 }
 
 /* ready to explore Bulgaria */
@@ -780,6 +783,7 @@ footer ul {
     font-size: 20px;
     width: 440px;
     height: 26px;
+    font-weight: 500;
 }
 
 .right-foot div {
@@ -794,7 +798,7 @@ footer ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border-top: 1px solid grey;
+    border-top: 1px solid #4F4F53;
 }
 
 .footer-footer-container-content div {
